@@ -138,7 +138,7 @@ section{
 
 .banner{
     min-height: 80vh;
-    background:url(../images/banner2.jpg);
+    background:url(../images/banner.jpg);
     background-size: cover;
     background-position: center;
     display: grid;
