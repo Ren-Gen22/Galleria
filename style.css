@@ -186,7 +186,7 @@ section {
 }
 
 .container .posts-container .post .image {
-  height: 40rem;
+  height: 60rem;
   width: 100%;
   border-radius: 0.5rem;
   object-fit: cover;
