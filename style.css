@@ -63,10 +63,6 @@ section {
   margin-right: auto;
 }
 
-/*.header .logo span{
-    color:var(--orange);
-}*/
-
 .header .navbar a {
   color: var(--light-color);
   margin-right: 2rem;
@@ -143,7 +139,7 @@ section {
 
 .banner {
   min-height: 80vh;
-  background: url(../images/banner.jpg);
+  background: url(./images/banner.jpg);
   background-size: cover;
   background-position: center;
   display: grid;
@@ -385,7 +381,7 @@ section {
 }
 
 .contact {
-  background: url(../images/conbg.jpg) no-repeat;
+  background: url(./images/conbg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -465,8 +461,6 @@ section {
 .footer .follow a:hover {
   background: var(--orange);
 }
-
-/* media queries  */
 
 @media (max-width: 991px) {
   html {
