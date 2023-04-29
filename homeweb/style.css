@@ -1,7 +1,26 @@
-body {
-  font-family: Arial, sans-serif;
+:root {
+  --orange: #e67e22;
+  --black: #333;
+  --light-color: #777;
+  --border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
 .header {
@@ -20,7 +39,7 @@ body {
 .header .logo {
   font-family: "Remachine Script Personal Use";
   color: var(--black);
-  font-size: 90px;
+  font-size: 40px;
   margin-right: auto;
 }
 
@@ -29,28 +48,11 @@ body {
   margin-right: 2rem;
   font-size: 1.7rem;
   text-transform: capitalize;
+  font-family: "Calibri";
 }
 
 .header .navbar a:hover {
   color: var(--orange);
-}
-
-.header .icons i {
-  height: 4.5rem;
-  line-height: 4.5rem;
-  width: 4.5rem;
-  text-align: center;
-  color: var(--black);
-  background: #eee;
-  border-radius: 50%;
-  margin-left: 0.7rem;
-  font-size: 1.7rem;
-  cursor: pointer;
-}
-
-.header .icons i:hover {
-  color: #fff;
-  background: var(--orange);
 }
 
 main {
@@ -58,10 +60,10 @@ main {
 }
 
 #gallery {
-  margin-top: 5%;
+  margin-top: 10%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 15px;
 }
 
 .gallery-item {
@@ -97,6 +99,7 @@ main {
 
 .gallery-item:hover .overlay {
   opacity: 1;
+  font-family: "Calibri";
 }
 
 .overlay h2,

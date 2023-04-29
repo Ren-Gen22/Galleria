@@ -157,9 +157,10 @@ section {
 }
 
 .banner .content h3 {
-  font-size: 4rem;
+  font-size: 6rem;
   color: var(--black);
   text-transform: uppercase;
+  font-family: "Julius Sans One";
 }
 
 .banner .content p {
