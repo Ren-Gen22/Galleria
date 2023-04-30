@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Remachine Script Personal Use Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Remachine Script Personal Use Regular"),
+    url("./fonts/RemachineScript_PERSONAL_USE_ONLY.woff") format("woff");
+}
+@font-face {
+  font-family: "Julius Sans One";
+  src: url("./fonts/JuliusSansOne-Regular.ttf") format("truetype");
+}
+
 :root {
   --orange: #e67e22;
   --black: #333;
@@ -57,7 +69,7 @@ section {
 }
 
 .header .logo {
-  font-family: "Remachine Script Personal Use";
+  font-family: "Remachine Script Personal Use Regular";
   color: var(--black);
   font-size: 90px;
   margin-right: auto;

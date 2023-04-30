@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Remachine Script Personal Use Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Remachine Script Personal Use Regular"),
+    url("../fonts/RemachineScript_PERSONAL_USE_ONLY.woff") format("woff");
+}
+
 :root {
   --orange: #e67e22;
   --black: #333;
@@ -21,6 +29,7 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
+  background-image: url("../images/bg.jpg");
 }
 
 .header {
@@ -37,7 +46,7 @@ html {
 }
 
 .header .logo {
-  font-family: "Remachine Script Personal Use";
+  font-family: "Remachine Script Personal Use Regular";
   color: var(--black);
   font-size: 40px;
   margin-right: auto;
@@ -103,7 +112,7 @@ main {
 }
 
 .gallery-item:hover .overlay {
-  opacity: 1;
+  opacity: 0.5;
   font-family: "Calibri";
 }
 
