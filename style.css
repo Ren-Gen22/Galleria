@@ -393,6 +393,13 @@ section {
   color: #fff;
 }
 
+.container .sidebar .Ads {
+  height: 10px;
+  width: auto;
+  display: flex;
+  text-align: center;
+}
+
 .contact {
   background: url(./images/conbg.jpg) no-repeat;
   background-size: cover;

@@ -72,8 +72,8 @@ main {
   margin-top: 10%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  row-gap: 10px;
-  column-gap: 10px;
+  row-gap: 1%;
+  column-gap: 1%;
 }
 
 .gallery-item {
