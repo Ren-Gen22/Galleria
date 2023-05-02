@@ -394,10 +394,21 @@ section {
 }
 
 .container .sidebar .Ads {
-  height: 10px;
+  height: auto;
   width: auto;
-  display: flex;
   text-align: center;
+}
+
+.container .sidebar .Ads .small {
+  @media (min-width: 769px) {
+    display: none;
+  }
+}
+
+.container .sidebar .Ads .big {
+  @media (max-width: 769px) {
+    display: none;
+  }
 }
 
 .contact {
