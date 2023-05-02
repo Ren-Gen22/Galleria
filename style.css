@@ -411,6 +411,23 @@ section {
   }
 }
 
+.popup {
+  position: fixed;
+  font-family: "Julius Sans One";
+  font-size: 2rem;
+  text-align: center;
+  height: 20%;
+  width: 20%;
+  top: 50%;
+  left: 50%;
+  transform: transate(-50%, -50%);
+  padding: 20 px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
 .contact {
   background: url(./images/conbg.jpg) no-repeat;
   background-size: cover;
@@ -511,7 +528,7 @@ section {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   #menu-bars {
     display: inline-block;
   }
