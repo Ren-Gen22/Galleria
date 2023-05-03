@@ -65,7 +65,7 @@ section {
   box-shadow: var(--box-shadow);
   display: flex;
   align-items: center;
-  padding: 1.2rem 7%;
+  padding: 1.3rem 7%;
 }
 
 .header .logo {
