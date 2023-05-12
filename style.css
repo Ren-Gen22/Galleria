@@ -610,6 +610,7 @@ section {
   max-height:400px;
 	margin-top:50px;
 	border:1px solid #fff;
+    border-radius:10px;
 	background-color:#fff;
 	background-repeat:no-repeat;
   top:30%;
@@ -626,6 +627,7 @@ section {
 	background-color:#f97352;
 	color:#FFF;
 	border-bottom:1px solid #f97352;
+    border-radius:10px;
 	padding:10px 0 10px 5px;
 }
 
@@ -635,6 +637,7 @@ section {
 	height:50px;
 	padding-left:5px;
   padding-top:30px;
+    padding-bottom:30px;
   text-align:center;
   vertical-align:middle;
 }
@@ -645,17 +648,16 @@ section {
 	margin:10px auto 10px auto;
 	padding:7px;
 	border:0 none;
+    border-radius:5px;
 	width:70px;
 	text-transform:uppercase;
 	text-align:center;
 	color:#FFF;
 	background-color:#f97352;
-	border-radius: 0px;
-	text-decoration:none;
   outline:0!important;
 }
 
-@media (max-width: 600px) 
+@media (max-width: 769px) 
 {
   #alertBox {
 	position:relative;
