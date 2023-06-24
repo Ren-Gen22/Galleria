@@ -111,3 +111,9 @@ contactForm.addEventListener("submit", function (event) {
   ALERT_TITLE = "Alert";
   contactForm.submit();
 });
+
+function copy() {
+  let copyText = "https://ren-gen22.github.io/Galleria/";
+  navigator.clipboard.writeText(copyText);
+  alert("!!Copied the link!!");
+}
